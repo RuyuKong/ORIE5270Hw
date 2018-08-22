@@ -1,1 +1,18 @@
-awsEC2(amazon Elastic Compute Cloud
+1.awsEC2(amazon Elastic Compute Cloud
+topics:set up and launch an instance
+why matter:provides easier, secure, faster web-scale cloud computing 
+2.Linux
+topics:linux command line 
+Open source operating system , most commonly used among developers, support     almost all programming languages, faster
+3.Vim
+Powerful text editor,faster,shortcuts
+4.Git
+topics:creating new branch, pull push files
+Version control,keep tracking of what and when changes are made.Merge
+collaborator's work
+5.Shell
+run shell scripts 
+Shell scripts using under linux environments,useful of performing automatically 
+frequent commands
+6.Pychram
+nice debugger,plays nicely with git, support multi programming languages
