@@ -7,7 +7,8 @@ class TestPrintTree(unittest.TestCase):
 		#single node as tree
 		root = TreeNode(1)
 		self.answer = [['1']]
-		self.input = Trees.printTree(root)
+		solution = Solution()
+        	self.input = solution.printTree(root)
 		assert self.input == self.answer
 
 	def testCase2:
@@ -22,7 +23,8 @@ class TestPrintTree(unittest.TestCase):
 		self.answer = [['|', '|', '|', '1', '|', '|', '|'],
                                ['|', '2', '|', '|', '|', '3', '|'],
                                ['4', '|', '5', '|', '6', '|', '7']]
-       		self.input = Trees.printTree(root)
+		solution = Solution()
+                self.input = solution.printTree(root)
 		assert self.input == self.answer
 	 def testCase3:
      		#3. left branches tree
@@ -34,7 +36,8 @@ class TestPrintTree(unittest.TestCase):
                                ['|', '|', '|', '2', '|', '|', '|', '|', '|', '|', '|', '|', '|', '|', '|'],
                                ['|', '3', '|', '|', '|', '|', '|', '|', '|', '|', '|', '|', '|', '|', '|'],
                                ['4', '|', '|', '|', '|', '|', '|', '|', '|', '|', '|', '|', '|', '|', '|']]
-                self.input = Trees.printTree(root)
+                solution = Solution()
+                self.input = solution.printTree(root)
 		assert self.input == self.answer
 	def testCase4:
 		#4. irregular tree
@@ -48,5 +51,6 @@ class TestPrintTree(unittest.TestCase):
                       	       ['|', '|', '|', '2', '|', '|', '|', '|', '|', '|', '|', '3', '|', '|', '|'],
                                ['|', '|', '|', '|', '|', '4', '|', '|', '|', '5', '|', '|', '|', '|', '|'],
                                ['|', '|', '7', '|', '8', '|', '|', '|', '|', '|', '6', '|', '|', '|', '|']]
-        	self.input = Trees.printTree(root)
+        	solution = Solution()
+                self.input = solution.printTree(root)
 		assert self.input == self.answer
